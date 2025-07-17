@@ -1,170 +1,166 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Proyecto Educativo con Inteligencia Artificial</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap">
+  <title>Comunidad Inteligente 443037A_2033</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
+    * {margin: 0; padding: 0; box-sizing: border-box;}
     body {
       font-family: 'Roboto', sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
       line-height: 1.6;
-      background-color: #f4f4f4;
-      color: #333;
     }
-
     header {
-      background: #4a90e2;
+      background-color: #2563eb;
       color: white;
       padding: 1rem 2rem;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
+      text-align: center;
     }
-
-    header h1 {
-      margin-bottom: 0.5rem;
-    }
-
     nav {
+      background-color: #1e40af;
       display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
+      justify-content: space-around;
+      padding: 0.5rem;
     }
-
     nav a {
       color: white;
       text-decoration: none;
       font-weight: bold;
     }
-
     section {
       padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
     }
-
     h2 {
       margin-bottom: 1rem;
-      color: #4a90e2;
+      color: #1e3a8a;
     }
-
-    .objetivos {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
-    }
-
     .card {
       background: white;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    footer {
-      background: #333;
-      color: white;
+    .img-container {
       text-align: center;
+      margin-bottom: 2rem;
+    }
+    .img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    textarea, input[type="text"] {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border: 1px solid #cbd5e0;
+      border-radius: 0.25rem;
+    }
+    .comments {
+      margin-top: 1rem;
+    }
+    .comment {
+      background-color: #e5e7eb;
       padding: 1rem;
-      margin-top: 2rem;
+      border-radius: 0.25rem;
+      margin-bottom: 0.5rem;
     }
   </style>
 </head>
-
 <body>
   <header>
-    <h1>Proyecto Educativo: Comunidad Virtual con IA</h1>
-    <nav>
-      <a href="#introduccion">Introducción</a>
-      <a href="#problema">Problema</a>
-      <a href="#justificacion">Justificación</a>
-      <a href="#objetivos">Objetivos</a>
-      <a href="#soluciones">Soluciones</a>
-      <a href="#herramientas">Herramientas</a>
-    </nav>
+    <h1>Comunidad Inteligente 443037A_2033</h1>
+    <p>Proyecto colaborativo: Plataforma web con inteligencia colectiva e IA</p>
+    <p>Elisa Vivas Cañas</p>
   </header>
 
-  <section id="introduccion">
-    <h2>Introducción</h2>
-    <p>
-      Este proyecto nace con la idea de crear un sitio web educativo que aproveche herramientas de inteligencia artificial para mejorar el aprendizaje colaborativo. Queremos que estudiantes y docentes puedan interactuar, compartir recursos, y construir conocimiento de forma colectiva en una comunidad virtual accesible para todos.
-    </p>
-  </section>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#importancia">Importancia</a>
+    <a href="#soluciones">Soluciones</a>
+    <a href="#aportes">Aportes</a>
+  </nav>
 
-  <section id="problema">
-    <h2>Planteamiento del problema</h2>
-    <p>
-      Muchos grupos de estudio virtual enfrentan dificultades para organizar la información, hacer seguimiento de los aportes, y mantener una comunicación efectiva. A veces no sabemos quién participó, cuándo, ni cómo aprovechar todo el material compartido. Esto genera desmotivación y falta de aprovechamiento del conocimiento colectivo.
-    </p>
-  </section>
-
-  <section id="justificacion">
-    <h2>Justificación</h2>
-    <p>
-      El uso de inteligencia artificial permite automatizar tareas como la recopilación de información, la generación de resúmenes o el análisis de participación. Al desarrollar este sitio web, buscamos facilitar la gestión de los grupos virtuales, mejorar la experiencia de aprendizaje y fortalecer la inteligencia colectiva.
-    </p>
-  </section>
-
-  <section id="objetivos">
-    <h2>Objetivos</h2>
+  <section id="inicio">
     <div class="card">
-      <h3>Objetivo General</h3>
-      <p>Desarrollar un sitio web que integre herramientas de inteligencia artificial para mejorar la organización, la interacción y la inteligencia colectiva en grupos de estudio virtuales.</p>
+      <h2>¿Qué es este proyecto?</h2>
+      <p>Este proyecto nace de la necesidad de contar con espacios digitales en los que los estudiantes puedan colaborar de forma activa, usando herramientas de inteligencia artificial para mejorar su organización, aprendizaje y producción colectiva.</p>
+      <div class="img-container">
+        <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg" alt="Estudiantes colaborando">
+      </div>
     </div>
-    <div class="objetivos">
-      <div class="card">
-        <h4>Objetivo Específico 1</h4>
-        <p>Investigar y seleccionar herramientas de IA útiles para la colaboración educativa.</p>
-      </div>
-      <div class="card">
-        <h4>Objetivo Específico 2</h4>
-        <p>Implementar funciones básicas de resumen automático y seguimiento de aportes.</p>
-      </div>
-      <div class="card">
-        <h4>Objetivo Específico 3</h4>
-        <p>Evaluar la experiencia de los usuarios para mejorar el diseño y la funcionalidad del sitio.</p>
-      </div>
+  </section>
+
+  <section id="importancia">
+    <div class="card">
+      <h2>¿Por qué es importante?</h2>
+      <ul>
+        <li>Fomenta la organización del conocimiento en grupo.</li>
+        <li>Promueve la participación activa en entornos digitales.</li>
+        <li>Integra tecnologías emergentes como la IA para mejorar procesos.</li>
+        <li>Prepara a los estudiantes para entornos virtuales reales.</li>
+      </ul>
     </div>
   </section>
 
   <section id="soluciones">
-    <h2>Soluciones que proponemos</h2>
-    <ul>
-      <li>Agregar un sistema de resúmenes automáticos con IA para cada discusión semanal.</li>
-      <li>Contador visual de participación por miembro del grupo.</li>
-      <li>Repositorio de recursos compartidos (PDF, videos, links útiles).</li>
-      <li>Chat o foro interno con notificaciones inteligentes.</li>
-    </ul>
+    <div class="card">
+      <h2>Soluciones y herramientas</h2>
+      <p>La plataforma propone:</p>
+      <ul>
+        <li>Chat con IA para resolver dudas rápidamente.</li>
+        <li>Registro de aportes colaborativos por estudiante.</li>
+        <li>Creación de resúmenes automáticos usando IA.</li>
+        <li>Comentarios y retroalimentación entre pares.</li>
+      </ul>
+    </div>
   </section>
 
-  <section id="herramientas">
-    <h2>Herramientas que usaremos</h2>
-    <ul>
-      <li><strong>ChatGPT / Gemini:</strong> para generación de textos o ideas base.</li>
-      <li><strong>Canva / Genially:</strong> para diseñar infografías interactivas del proyecto.</li>
-      <li><strong>HTML/CSS/JavaScript:</strong> para el desarrollo técnico del sitio web.</li>
-      <li><strong>Notion o Google Docs:</strong> para la organización del contenido y las tareas.</li>
-    </ul>
+  <section id="aportes">
+    <div class="card">
+      <h2>Deja tu aporte</h2>
+      <form id="formulario">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label>Tu aporte:</label>
+        <textarea id="mensaje" rows="4" required></textarea>
+        <button class="btn" type="submit">Publicar</button>
+      </form>
+      <div class="comments" id="comentarios"></div>
+    </div>
   </section>
 
-  <footer>
-    <p>Grupo 443037A_2033 - Proyecto educativo con inteligencia artificial en comunidades virtuales de aprendizaje</p>
-    <p>Elisa Vivas Cañas</p>
-  </footer>
+  <script>
+    const formulario = document.getElementById('formulario');
+    const comentarios = document.getElementById('comentarios');
+
+    formulario.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nombre = document.getElementById('nombre').value;
+      const mensaje = document.getElementById('mensaje').value;
+
+      const div = document.createElement('div');
+      div.classList.add('comment');
+      div.innerHTML = `<strong>${nombre}</strong><br>${mensaje}`;
+      comentarios.appendChild(div);
+
+      formulario.reset();
+    });
+  </script>
 </body>
-
 </html>
+
